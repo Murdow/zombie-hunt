@@ -1,0 +1,24 @@
+body
+{
+     background-image: url(Images/zombieBackground.png);
+     
+     background-size:100%;
+    
+     background-repeat:no-repeat;
+    
+     background-attachment:fixed;
+}
+
+#backgroundCanvas{
+    display:block; 
+    background:#ffffff; 
+    margin:100px auto 0px; 
+    border:5px solid #3300DD;
+}
+
+#heroCanvas, #enemyCanvas, #canvasHUD{
+    display:block; 
+    margin:-530px auto 0px;
+    border:5px solid #3300DD;
+}
+
